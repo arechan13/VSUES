@@ -1,0 +1,1 @@
+SetMessage(questions[0].message);

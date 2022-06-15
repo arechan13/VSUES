@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html lang="ru"> <!-- язык самого сайта-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <link rel="stylesheet" href="assets/css/style.css"> <!-- подключение к файлу со стилями-->
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:300i,400,700&amp;subset=cyrillic-ext" 
+    rel="stylesheet"> <!-- Отвечает за шрифт-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" 
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <title>Ознакомительный сайт для абитуриентов ВГУЭС</title>
+</head>
+<body>
+
+
+<header class="header" id="header">
+    <div class="container">
+        <div class="header__inner">
+            <div class="header__logo" data-scroll="#intro">ВГУЭС</div> <!-- Типо логотип слева-->            
+   
+            <div>
+                <a class="nav__link" href="prof.html">Знакомство со специальностями</a>
+                <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">Главная</button>
+                <div id="myDropdown" class="dropdown-content">
+                    <a class="nav__link" href="#" data-scroll="#about">О филиале</a>
+                    <a class="nav__link" href="#" data-scroll="#services">Про обучение</a>
+                    <a class="nav__link" href="#" data-scroll="#webo">Специальности</a>
+                    <a class="nav__link" href="#" data-scroll="#card">Руководители</a>
+                    <a class="nav__link" href="#" data-scroll="#works">Фотографии</a>
+        
+                </div>
+                </div>
+            </div>  
+    </div>
+</header>
+
+
+
+<div class="page">
+
+    <!-- Intro -->
+    <div class="intro" id="intro">
+        <div class="container">
+            <div class="intro__inner">
+                <h2 class="intro__suptitle"></h2>
+                <h1 class="intro__title">Владивостокский государственный университет экономики и сервиса</h1> <!-- Большой текст-->
+
+                <a class="btn" href="https://b-artem.vvsu.ru/">Филиал в г.Артем</a> <!-- Кнопка работает, ссылает на настоящий сайт вгуэса-->
+            </div>
+        </div>
+
+    </div><!-- /.intro -->
+
+        <!-- Карта -->
+        <section class="sectionv  section--map">
+            <div class="container"> 
+                <div class="map">
+                    <h2 class="map__title">
+                        <div><i class="fas fa-map-marker-alt"></i></div>
+                        <a href="https://goo.gl/maps/4TxALeVdz2rvuGmNA" target="_blank">Местоположение филиала</a>
+                    </h2>
+                </div>
+            </div>
+        </section>
+     <!-- About -->
+    <section class="section" id="about">
+        <div class="container">
+
+            <div class="section__header">
+                <h3 class="section__suptitle">Филиал ВГУЭС в г.Артем</h3>
+                <h2 class="section__title">Добро пожаловать!!!</h2>
+                <div class="section__text">
+                    <p>Филиал федерального государственного бюджетного образовательного учреждения высшего
+                         образования «Владивостокский государственный университет экономики и сервиса» – 
+                         это крупнейшее учебное заведение на территории Артемовского городского округа,
+                          осуществляющее подготовку кадров экономического, информационного, сервисного,
+                           транспортного и управленческого профилей.</p>
+                </div>
+            </div>
+
+            <div class="card"> <!--Картинки двигаются-->
+                <div class="card__item">
+                    <div class="card__inner">
+                        <div class="card__img">
+                            <img src="assets/images/about/1.jpg" alt="">
+                        </div>
+                        <div class="card__text">Изучай</div>
+                    </div>
+                </div>
+
+                <div class="card__item">
+                    <div class="card__inner">
+                        <div class="card__img">
+                            <img src="assets/images/about/2.jpg" alt="">
+                        </div>
+                        <div class="card__text">Выбирай</div>
+                    </div>
+                </div>
+
+                <div class="card__item">
+                    <div class="card__inner">
+                        <div class="card__img">
+                            <img src="assets/images/about/3.jpg" alt="">
+                        </div>
+                        <div class="card__text">Поступай</div>
+                    </div>
+                </div>
+            </div>
+
+        </div><!-- /.container -->
+    </section>
+
+
+      <!-- Статистика  -->
+    <div class="statistics">  
+        <div class="container">
+
+            <div class="stat">
+                <div class="stat__item">
+                    <div class="stat__count">55</div>
+                    <div class="stat__text">лет успешной работы</div>
+                </div>
+                <div class="stat__item">
+                    <div class="stat__count">57000</div>
+                    <div class="stat__text">выпусников</div>
+                </div>
+                <div class="stat__item">
+                    <div class="stat__count">216</div>
+                    <div class="stat__text">образовательных программ</div>
+                </div>
+                <div class="stat__item">
+                    <div class="stat__count">12500</div>
+                    <div class="stat__text">кв.м - площадь учебных лабораторий</div>
+                </div>
+                <!--  <div class="stat__item">
+                    <div class="stat__count"></div>
+                    <div class="stat__text">Несколько филиалов (Артем, Уссурийск, Находка, Владивосток)</div>
+                </div>-->
+            </div>
+
+        </div>
+    </div>
+
+        <!-- маскот -->
+   <section class="section">
+        <div class="container">
+            <div class="section__header">
+                <h3 class="section__suptitle">Маскот ВГУЭС</h3> 
+                <h2 class="section__title"></h2> 
+            </div>
+         <div class="mas">
+             <img class="mas__img" src="animation/дубль два.gif" alt=""> 
+             <div class="mas__text">Здравствуй, абитуриент! Познакомься с маскотом нашего филиала. На вкладке "Знакомство со специальностями", он расскажет тебе немного о нашем колледже и познакомит с другими маскотами, которые поведуют тебе о направлениях, доступные для поступления в этом году. Также по ссылке ниже вы сможете загрузить модель нашего маскота прямо на свой телефон или компьютер! В архиве приложены файл с маскотом и инструкция по установке. Удачного ознакомления!
+                <a class="mas_s" href="https://disk.yandex.ru/d/OAnO9aWTH5d2jQ" target="_blank">
+                        Файл с маскотом на Яндекс.Диске</a> 
+             
+           
+            </div>   
+         </div>
+    </div> 
+    </section>
+
+
+    <!-- об обучении -->
+    <section class="section" id="services">
+        <div class="container">
+
+            <div class="section__header">
+                <h3 class="section__suptitle">Про обучение в</h3> 
+                <h2 class="section__title"> Колледже</h2> 
+            </div>
+
+            <div class="services"> <!-- Первый блок -->
+                <div class="services__item  services__item--border"> <!-- Иконки -->
+                    <img class="services__icon" src="assets/images/services/photography.png" alt="">  <!-- Иконки -->
+
+                    <div class="services__title">Обучение</div>  <!-- Заголовок рядок с иконкой -->
+                    <div class="services__text"> Обучение от 2-х до 4 лет. Пары начинатся с 8-30 и до 18-30 </div>  <!-- Текст после заголовка -->
+                </div>
+                <div class="services__item  services__item--border">
+                    <img class="services__icon" src="assets/images/services/webdesign.png" alt="">  <!-- Иконки -->
+
+                    <div class="services__title">Обучение</div>  <!-- Заголовок рядок с иконкой -->
+                    <div class="services__text"> Возможность поступить на бюджет или в будущем с платного обучения перевестить на бюджет.</div> <!-- Текст после заголовка -->
+                </div>
+                <div class="services__item  services__item--border">
+                    <img class="services__icon" src="assets/images/services/creativity.png" alt="">  <!-- Иконки -->
+
+                    <div class="services__title">Креативность</div>  <!-- Заголовок рядок с иконкой -->
+                    <div class="services__text">Прояви себя с творческой стороны. Волонтерствовать и помогать людям,выступать на меропиятиях или смешить людей, вступив в ряды квн.</div>
+                </div>
+                <div class="services__item">
+                    <img class="services__icon" src="assets/images/services/seo.png" alt="">  <!-- Иконки -->
+
+                    <div class="services__title">Библиотека</div>  <!-- Заголовок рядок с иконкой -->
+                    <div class="services__text">В колледже находится библиотека. Компьтеы с выходом в интернет. И все что необходимо для обучения.</div>
+                </div>
+                <div class="services__item">
+                    <img class="services__icon" src="assets/images/services/css-html.png" alt=""> <!-- Иконки -->
+
+                    <div class="services__title">Колледж</div>  <!-- Заголовок рядок с иконкой -->
+                    <div class="services__text">Как второй дом.</div>
+                </div>
+                <div class="services__item">
+                    <img class="services__icon" src="assets/images/services/digital.png" alt="">
+
+                    <div class="services__title">digital</div>
+                    <div class="services__text">Целых 3 аудитории с копьютерами, за которыми ты будешь обучаться и получать нужные и важные знания.</div>
+                </div>
+            </div>
+
+        </div><!-- /.container -->
+    </section>
+
+    <!-- Блог со всплывашками и картинкой -->
+    <section class="section" id="webo">
+        <div class="container">
+
+            <div class="section__header">
+                <h3 class="section__suptitle">Специальности</h3>    <!-- Заголовки -->
+                <h2 class="section__title">Что выбрать?</h2>
+                <div class="section__text">
+                    <p>Выбор профессии надо вести вдумчиво и очень тщательно. 
+                        Но только мысли требуется ориентировать в правильную сторону.
+                        Бессмысленно думать о том, какая специальность более популярна
+                        в данный момент, насколько она хвалится в СМИ,
+                        как громко звучит или рекламируется. 
+                        Очень важно обращать внимание, что нравится вам самим.</p>  <!-- Обычный текст -->
+                </div>
+            </div>
+
+            <div class="wedo">
+                <div class="wedo__item">
+                    <img class="wedo__img" src="assets/images/wedo.jpg" alt="">     <!-- Картинка слева  -->
+                </div>
+ 
+                <div class="wedo__item">
+
+                    <div class="accordion">  <!-- Всплывашка -->
+                        <div class="accordion__item" data-collapse="#wedo_1"> <!-- Всплывашка 1 -->
+                            <div class="accordion__header">
+                                <img class="accordion__icon" src="assets/images/services/creativity.png" alt=""> <!-- Иконка -->
+                                <div class="accordion__title">Программист</div> <!-- Заголовок -->
+                            </div>
+                            <div class="accordion__content" id="wedo_1">
+                                <p>Программист, иногда называемый разработчиком 
+                                    программного обеспечения, программистом или в
+                                     последнее время кодером (особенно в более неформальных контекстах), 
+                                    - это человек, который создает компьютерное программное обеспечение.</br>
+                                    </p> 
+                                    <a class="accordion__text" href="https://b-artem.vvsu.ru/enter/spo/program/descr/2372/qual/249/pln/21592//" target="_blank">
+                                        - Информационные системы и программирование;</a> 
+                                    <a class="accordion__text" href="https://b-artem.vvsu.ru/enter/spo/program/descr/2330/qual/240/pln/21749/" target="_blank">
+                                        - Сетевое и системное администрирование.)</a> <!--Текст внутри-->
+                            </div>
+                        </div>
+
+                        <div class="accordion__item " data-collapse="#wedo_2"> <!-- Всплывашка 2 -->
+                            <div class="accordion__header">
+                                <img class="accordion__icon" src="assets/images/services/creativity.png" alt="">
+                                <div class="accordion__title">Коммерция</div> <!-- Заголовок -->
+                            </div>
+                            <div class="accordion__content" id="wedo_2">
+                                <p>Квалификация – менеджер по продажам.
+                                     Коммерцией считается предпринимательская деятельность.
+                                      Этот термин предполагает занятие торговой работой. 
+                                      Специальность «Коммерция по отраслям» сейчас очень востребована, 
+                                      поскольку сотрудники необходимы для многих сфер.</br>
+                                    </p>
+                                    <a class="accordion__text" href="https://b-artem.vvsu.ru/enter/spo/program/descr/1826/qual/194/pln/21620/" target="_blank">
+                                        - Коммерция (по отраслям) (заочно);</a>         
+                                    <a class="accordion__text" href="https://b-artem.vvsu.ru/enter/spo/program/descr/1241/qual/194/pln/21596/" target="_blank">
+                                            - Коммерция (по отраслям) (очно)</a>
+                            </div>
+                        </div>
+
+                        <div class="accordion__item" data-collapse="#wedo_3"> <!-- Всплывашка 3 -->
+                            <div class="accordion__header">
+                                <img class="accordion__icon" src="assets/images/services/webdesign.png" alt="">
+                                <div class="accordion__title">	Право и организация социального обеспечения</div>
+                            </div>
+                            <div class="accordion__content" id="wedo_3">
+                                <p>Право на социальное обеспечение означает обязательное участие
+                                 государства в содержании тех своих граждан, которые из-за
+                                 нетрудоспособности либо других независящих от них причин не 
+                                 имеют достаточных средств к существованию. 
+                                 Социальное обеспечение — одна из наиболее важных 
+                                 конституционных форм социальной защиты населения.
+                                Конституционными формами социального обеспечения выступают г
+                                осударственные пенсии и социальные пособия.</br>
+                            </p>
+                            <a class="accordion__text" href="https://b-artem.vvsu.ru/enter/spo/program/descr/1235/qual/34/pln/21612/" target="_blank">
+                                - Право и организация социального обеспечения (заочно,очно);</a> 
+                            <a class="accordion__text" href="https://b-artem.vvsu.ru/enter/spo/program/descr/2117/qual/34/pln/21614/" target="_blank">
+                                - Право и организация социального обеспечения (углубленная подготовка)</a>
+                            </div>
+                        </div>
+                        <div class="accordion__item" data-collapse="#wedo_4"> <!-- Всплывашка 3 -->
+                            <div class="accordion__header">
+                                <img class="accordion__icon" src="assets/images/services/photography.png" alt="">
+                                <div class="accordion__title">Реклама</div>
+                            </div>
+                            <div class="accordion__content" id="wedo_4">
+                                <p>Специалист по рекламе работает на крупных предприятиях,
+                                в маркетинговых подразделениях организаций, в рекламных агентствах, в СМИ.
+                                Обязанности специалиста: разработка и проведение рекламных кампаний,
+                                акций и мероприятий, выработка рекламной политики организации, 
+                                планирование рекламной деятельности, размещение рекламы товаров и услуг,
+                                работа с целевыми группами, исследование мнения целевых групп,
+                                анализ эффективности рекламы.</br>
+                            </p>
+                            <a class="accordion__text" href="https://b-artem.vvsu.ru/enter/spo/program/descr/2092/qual/138/pln/21598/" target="_blank">
+                                - Реклама (очная)</a>
+                            </div>
+                        </div>
+                            <div class="accordion__item" data-collapse="#wedo_5"> <!-- Всплывашка 3 -->
+                                <div class="accordion__header">
+                                    <img class="accordion__icon" src="assets/images/services/webdesign.png" alt="">
+                                    <div class="accordion__title">Строительство и эксплуатация зданий и сооружений</div>
+                                </div>
+                                <div class="accordion__content" id="wedo_5">
+                                    <p>Выпускники специальности «Строительство и эксплуатация зданий и
+                                     сооружений» получают квалификацию «техник», и, как правило, 
+                                     становятся прорабами. Прорабы могут работать в строительных компаниях,
+                                     ремонтных фирмах, организациях-подрядчиках. Выпускники колледжей на
+                                     рынке труда ценятся довольно высоко, поскольку среднее специальное 
+                                     образование больше ориентировано на практические занятия. 
+                                     А большинство работодателей предпочитают иметь дело с практиками</br>
+                                </p>
+                                <a class="accordion__text" href="https://b-artem.vvsu.ru/enter/spo/program/descr/2183/qual/99/pln/21590/" target="_blank">
+                                    - Строительство и эксплуатация зданий и сооружений. ФГОС 3++ (очная)</a>
+                                </div>
+                            </div>
+                            <div class="accordion__item" data-collapse="#wedo_6"> <!-- Всплывашка 3 -->
+                                <div class="accordion__header">
+                                    <img class="accordion__icon" src="assets/images/services/seo.png" alt="">
+                                    <div class="accordion__title">	Экономика и бухгалтерский учет (по отраслям)</div>
+                                </div>
+                                <div class="accordion__content" id="wedo_6">
+                                    <p>Экономика и бухгалтерский учет» — самая популярная экономическая 
+                                    специальность СПО. Это и не удивительно: ни одно предприятие не функционирует
+                                     без осуществления бухгалтерского учета. Специальность можно получить на базе 9 
+                                     и 11 классов. Учеба на бухгалтера требует большой собранности и усидчивости 
+                                     — все профилирующие дисциплины так или иначе связаны с цифрами, расчетами 
+                                     и таблицами: бухгалтерский учет, финансы и кредит, международная
+                                     система ведения бухгалтерского учета, аудит, налоги и налогообложение.</br>
+                                </p>
+                                <a class="accordion__text" href="https://b-artem.vvsu.ru/enter/spo/program/descr/2189/qual/96/pln/21610/" target="_blank">
+                                    - Экономика и бухгалтерский учет (по отраслям) (очная)</a>
+                                </div>
+                            </div>
+                            <div class="accordion__item" data-collapse="#wedo_7"> <!-- Всплывашка 3 -->
+                                <div class="accordion__header">
+                                    <img class="accordion__icon" src="assets/images/services/css-html.png" alt="">
+                                    <div class="accordion__title">Техническое обслуживание и ремонт двигателей систем и агрегатов автомобилей</div>
+                                </div>
+                                <div class="accordion__content" id="wedo_7">
+                                    <p>Техническое обслуживание и ремонт двигателей и агрегатов автомобилей –
+                                     специальность, выпускник которой владеет навыками не только 
+                                     грамотной эксплуатации автомобилей, но и может организовывать 
+                                     технологические процессы обслуживания и ремонта. В процессе обучения 
+                                     студент овладевает компетенциями, которые в дальнейшей трудовой 
+                                     деятельности позволят ему иметь конкурентное преимущество на рынке труда.</br>
+                                </p>
+                                <a class="accordion__text" href="https://b-artem.vvsu.ru/enter/spo/program/descr/2218/qual/246/pln/21594/" target="_blank">
+                                    - Техническое обслуживание и ремонт двигателей систем и агрегатов автомобилей (очная,заочная)</a>
+                                </div>
+                            </div>
+                            <div class="accordion__item" data-collapse="#wedo_8"> <!-- Всплывашка 3 -->
+                                <div class="accordion__header">
+                                    <img class="accordion__icon" src="assets/images/services/digital.png" alt="">
+                                    <div class="accordion__title">Гостиничное дело</div>
+                                </div>
+                                <div class="accordion__content" id="wedo_8">
+                                    <p>Специалист, в ведении которого находится вопрос организации обслуживания 
+                                    гостей в гостиницах и туристских комплексах. Он принимает, размещает, 
+                                    выписывает постояльцев, отвечает за бесперебойную работу объекта.
+                                    Индустрия гостеприимства и туризма в России развивается стремительно.</br>
+                                     </p>
+                                    <a class="accordion__text" href="https://b-artem.vvsu.ru/enter/spo/program/descr/2247/qual/243/pln/21624/" target="_blank">
+                                        - Гостиничное дело (очная)</a>
+                                </div>
+                            </div>
+                            <div class="accordion__item" data-collapse="#wedo_9"> <!-- Всплывашка 3 -->
+                                <div class="accordion__header">
+                                    <img class="accordion__icon" src="assets/images/services/creativity.png" alt="">
+                                    <div class="accordion__title">Банковское дело</div>
+                                </div>
+                                <div class="accordion__content" id="wedo_9">
+                                    <p>Специальность «Банковское дело» предназначена для подготовки специалистов,
+                                     способных выполнять банковские финансово-экономические манипуляции: 
+                                     предоставление кредитов, открытие депозитов, ведение счетов, 
+                                     документации, бухгалтерский учет.</br>
+                                </p>
+                                   <a class="accordion__text" href="https://b-artem.vvsu.ru/enter/spo/program/descr/2357/qual/97/pln/21608/" target="_blank">
+                                    - Банковское дело (очная)</a>
+                               
+                                </div>
+                             
+                            </div>
+                        </div>
+                    </div><!-- /.accordion -->
+
+                </div><!-- /.wedo__item -->
+            </div><!-- /.wedo -->
+
+        </div>
+    </section>
+
+
+    <!-- Отзыв в карусели -->
+    <div class="section  section--gray">
+        <div class="container">
+
+            <div class="reviews">
+                <div data-slider>
+                    <div>
+                        <div class="reviews__item">
+                            <img class="reviews__photo" src="assets/images/avatar.png" alt=""> <!-- Аватор  -->
+                            <div class="reviews__text">“Мне нравится. Есть много вариантов обучения,
+                                 дети ведут социально активный образ жизни, если гигантских амбиций не иметь,
+                                 то для Артёма это палочка выручалочка для многих семей...”</div>
+                                  <!-- Текст отзыва  -->
+                            <div class="reviews__author">Светлана Мельникова</div> <!-- Автор  -->
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="reviews__item">
+                            <img class="reviews__photo" src="assets/images/avatar.png" alt=""> <!-- Аватор  -->
+                            <div class="reviews__text">“Не буду говорить про весь Вгуэс в целом,
+                                 скажу лишь про кафедру эуит.
+                                Преподаватели отличные! Учился на программиста в колледже.
+                                 Если ты нормальный человек, без заскоков, 
+                                 то ты 100% получишь диплом. Преподаватели реально тянут.”</div>
+                            <div class="reviews__author">Дмитрий</div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="reviews__item">
+                            <img class="reviews__photo" src="assets/images/avatar.png" alt=""> <!-- Аватор  -->
+                            <div class="reviews__text">“Расположение вблизи центра 
+                                Учебные корпуса и общаги соединены. 
+                                Хорошие стипендии Практико-интегрированное обучение”</div>
+                            <div class="reviews__author">SubaruStella</div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="reviews__item">
+                            <img class="reviews__photo" src="assets/images/avatar.png" alt=""> <!-- Аватор  -->
+                            <div class="reviews__text">“Удобное расписание, можно совмещать
+                                 с работой, хорошая коммуникационная организация, приятные 
+                                 интересные преподаватели”</div>
+                            <div class="reviews__author">olpkovaleva10</div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="reviews__item">
+                            <img class="reviews__photo" src="assets/images/avatar.png" alt=""> <!-- Аватор  -->
+                            <div class="reviews__text">“Высокое качество образования.
+                             Высокие степендии за обучение и отдельные достижения в спорте
+                              и культурно творческой деятельности и многое другое...
+                            Преподавательский состав, оснащён высоко квалифицированными 
+                            специалистами. Очень хорошие общежития на территории вгуэс
+                             по доступным ценам. ”</div>
+                            <div class="reviews__author">Ирина Егорова</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- Про директора и заведующих -->
+    <section class="section" id="card" >
+        <div class="container">
+
+            <div class="section__header">
+                <h3 class="section__suptitle">Кто мы такие</h3>
+                <h2 class="section__title">Познакомьтесь с управляющими</h2>
+                <div class="section__text"> 
+                    <p>Студенты и преподаватели филиала ВГУЭС, постоянно участвуют в 
+                        городских, краевых, всероссийских и международных 
+                        творческих конкурсах,  фестивалях и соревнованиях, на которых
+                         достойно представляют наше учебное заведение, занимая призовые
+                        места, что дает уверенность в своих силах и новый толчок для
+                         творчества.</p>
+                </div>
+            </div>
+   
+           </div>
+       <div class="card">
+        <div class="cardb__item">
+            <div class="card__inner">
+                <div class="card__img">
+                    <img src="assets/images/team/1-1.jpg" alt="">
+                </div>
+                <div class="card__text">
+                    Стасенко Ирина Николаевна
+                </div>
+            </div>
+            <div class="card__info">
+           
+                <div class="card__prof">Директор филиала</div>
+            </div>
+        </div><!-- /.card__item -->
+        
+        <div class="cardb__item">
+            <div class="card__inner">
+                <div class="card__img">
+                    <img src="assets/images/team/1-4.jpg" alt="">
+                </div>
+                <div class="card__text">
+                    Пипко Оксана Федоровна
+                </div>
+            </div>
+            <div class="card__info">
+           
+                <div class="card__prof">Заместитель директора филиала</div>
+            </div>
+        </div><!-- /.card__item -->
+
+        <div class="cardb__item">
+            <div class="card__inner">
+                <div class="card__img">
+                    <img src="assets/images/team/1-2.jpg" alt="">
+                </div>
+                <div class="card__text">
+                    Салькова Ирина Андреевна
+                </div>
+            </div>
+            <div class="card__info">
+               
+                <div class="card__prof">Заместитель директора филиала</div>
+            </div>
+        </div><!-- /.card__item -->
+
+        <div class="cardb__item">
+            <div class="card__inner">
+                <div class="card__img">
+                    <img src="assets/images/team/1-3.jpg" alt="">
+                </div>
+                <div class="card__text">
+                    Неслюзов Владимир Владимирович
+                </div>
+            </div>
+            <div class="card__info">
+             
+                <div class="card__prof">Заместитель директора филиала</div>
+            </div>
+
+
+            
+        </div><!-- /.card__item -->
+
+    </div><!-- /.card -->  
+       <!--</div> /.card -->            
+    </section>
+    
+            
+    <!-- Красивые фотки вгуся -->
+    <section class="section" id="works">
+        <div class="container">  
+
+            <div class="section__header">
+                <h3 class="section__suptitle">Фотографии</h3>    <!-- Заголовки -->
+                <h2 class="section__title">прекрасного колледжа и его студентов</h2>
+                <div class="section__text">
+                    <p>Реализовать себя в обществе, раскрыть свои таланты, воплотить 
+                        нестандартные проекты и оригинальные идеи - таковы задачи наших 
+                        студентов на сегодняшний день и в будущем!
+                        Молодежный центр филиала ВГУЭС в г. Артеме объединяет яркие дарования 
+                        – по-настоящему уникальных ребят с разными творческими интересами и талантами.
+                        Именно здесь концентрация 
+                        предприимчивости, инициативы и креативности выше, чем в любом другом месте.
+                        Мы рады всем, кто желает присоединиться к нашим творческим объединениям и коллективам</p>
+                   <!-- Текст -->
+                </div>
+            </div>
+            
+            <div class="sectiont  sectiont--gray">      
+                <div class="foto">
+                               <div data-slider>
+                                 
+                                   <div>
+                                       <div class="foto__item">
+                                           <img class="foto__photo" src="assets/images/works/1.jpg" alt=""> 
+                                       </div>
+                                   </div>
+                                   <div>
+                                       <div class="foto__item">
+                                           <img class="foto__photo" src="assets/images/works/2.jpg" alt=""> 
+                                       </div>
+                                   </div>
+                                   <div>
+                                    <div class="foto__item">
+                                        <img class="foto__photo" src="assets/images/works/3.jpg" alt=""> 
+                                    </div>
+                                   </div>
+                                   <div>
+                                    <div class="foto__item">
+                                        <img class="foto__photo" src="assets/images/works/4.jpg" alt=""> 
+                                    </div>
+                                   </div>
+                                   <div>
+                                    <div class="foto__item">
+                                        <img class="foto__photot" src="assets/images/works/5.jpg" alt=""> 
+                                    </div>
+                                   </div>
+                                   <div>
+                                    <div class="foto__item">
+                                        <img class="foto__photo" src="assets/images/works/6.jpg" alt=""> 
+                                    </div>
+                                   </div>
+                                   <div>
+                                    <div class="foto__item">
+                                        <img class="foto__photo" src="assets/images/works/7.jpg" alt=""> 
+                                    </div>
+                                   </div>
+                                   <div>
+                                    <div class="foto__item">
+                                        <img class="foto__photo" src="assets/images/works/8.jpg" alt="">
+                                    </div>
+                                   </div>
+                                   <div>
+                                    <div class="foto__item">
+                                        <img class="foto__photo" src="assets/images/works/9.jpg" alt="">
+                                    </div>
+                                   </div>
+                                   <div>
+                                    <div class="foto__item">
+                                        <img class="foto__photo" src="assets/images/works/10.jpg" alt="">
+                                    </div>
+                                   </div>
+                                   <div>
+                                    <div class="foto__item">
+                                        <img class="foto__photot" src="assets/images/works/11.jpg" alt=""> 
+                                    </div>
+                                   </div>
+                                   <div>
+                                    <div class="foto__item">
+                                        <img class="foto__photot" src="assets/images/works/12.jpg" alt="">
+                                    </div>
+                                   </div>
+                                   <div>
+                                    <div class="foto__item">
+                                        <img class="foto__photot" src="assets/images/works/13.jpg" alt="">
+                                    </div>
+                                   </div>
+                                   <div>
+                                    <div class="foto__item">
+                                        <img class="foto__photot" src="assets/images/works/14.jpg" alt=""> 
+                                    </div>
+                                   </div>
+                                   <div>
+                                    <div class="foto__item">
+                                        <img class="foto__photot" src="assets/images/works/15.jpg" alt=""> 
+                                    </div>
+                                   </div>
+                                   <div>
+                                    <div class="foto__item">
+                                        <img class="foto__photot" src="assets/images/works/16.jpg" alt="">
+                                    </div>
+                                   </div>
+                                   <div>
+                                    <div class="foto__item">
+                                        <img class="foto__photot" src="assets/images/works/17.jpg" alt=""> 
+                                    </div>
+                                   </div>
+                                   <div>
+                                    <div class="foto__item">
+                                        <img class="foto__photot" src="assets/images/works/18.jpg" alt="">
+                                    </div>
+                                   </div>
+                                   <div>
+                                    <div class="foto__item">
+                                        <img class="foto__photot" src="assets/images/works/19.jpg" alt="">
+                                    </div>
+                                   </div>
+                                   </div>
+                               </div>
+                           </div>
+               
+            </div><!-- /.container -->
+
+ </section> <!-- /.works -->
+
+    <!-- Footer Подвал на самом сайте-->
+    <footer class="footer" id="footer">
+        <div class="container">
+
+            <div class="footer__inner">
+                <div class="footer__col  footer__col--first">
+                    <div class="footer__logo">Вгуэс</div>
+                    <div class="footer__text">Владивостокский государственный университет экономики и сервиса 
+                    (ВГУЭС) — университет, расположенный во Владивостоке. Полное наименование
+                     — Федеральное государственное бюджетное образовательное учреждение высшего
+                      образования «Владивостокский государственный университет экономики и сервиса» 
+                      (ФГБОУ ВО ВГУЭС). Имеет 3 филиала в Приморском крае.</div>
+
+                    <div class="footer__social"> <!-- соц сети -->
+                        <div class="footer__social-header">
+                            <b>4k</b> followers
+                        </div>
+                        <div class="footer__social-content">
+                            Follow Us: <!-- соц сети ссылки-->
+                            <a href="" target="_blank">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+                            <a href="" target="_blank">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="" target="_blank">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                </div><!-- /.footer__col -->
+               
+            
+                <div class="footer__col  footer__col--second">
+                    <div class="footer__titlen">Справочная информация для поступающих:</div>
+                 <!-- Ссылки на информацию про поступление -->
+                    <div class="blogs">
+                        <div class="blogs__item">
+                            <div class="blogs__content">
+                                <a class="blogs__title" href="https://b-artem.vvsu.ru/enter/spo/" target="_blank">
+                                    - Перечень специальностей в колледже</a>
+                            </div>
+                        </div>
+
+                        <div class="blogs__item">
+                            <div class="blogs__content">
+                                <a class="blogs__title" href="https://b-artem.vvsu.ru/enter/spo-rules/" target="_blank">
+                                    - Правила приёма на программы СПО</a>
+                            </div>
+                        </div>
+
+                        <div class="blogs__item">
+                            <div class="blogs__content">
+                                <a class="blogs__title" href="https://b-artem.vvsu.ru/enter/application/" target="_blank">
+                                   - Формы заявлений и договоров</a>
+                            </div>
+                        </div>
+                        <div class="blogs__item">
+                            <div class="blogs__content">
+                                <a class="blogs__title" href="https://b-artem.vvsu.ru/enter/documents/" target="_blank">
+                                   - Документы</a>
+                            </div>
+                        </div>
+                        <div class="blogs__item">
+                            <div class="blogs__content">
+                                <a class="blogs__title" href="https://b-artem.vvsu.ru/enter/spo-lists/" target="_blank">
+                                   - Приказы о зачислении на программы СПО</a>
+                            </div>
+                        </div>
+                    </div><!-- /.blogs -->
+                </div>
+
+            </div><!-- /.footer__inner -->
+
+            <div class="copyright"> <!-- самый нижный текст подвал -->
+                © 2022 - Владивостокский государственный университет экономики и сервиса.
+                 Разработчики <span>Бибко Алена, Лозунова Надежда</span>
+            </div>
+
+        </div><!-- /.container -->
+    </footer>
+
+</div><!-- /.page -->
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> <!--библиотека для слайдера-->
+<script src="assets/js/app.js"></script>
+
+
+</body>
+</html>

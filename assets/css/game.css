@@ -1,0 +1,101 @@
+#about {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: row;
+}
+
+#about div.column-img {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	width: 370px;
+}
+
+#about div.column-img img {
+	width: 100%;
+}
+
+div#game {
+	position: relative;
+	user-select: none;
+	border-radius: 5px;
+	border: solid 5px #1250ad;
+	width: 960px;
+	height: 540px;
+	background-color: #5d83ff00;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/* div.container {
+	height: 700px;
+    position: relative;
+}
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+} */
+
+img.character {
+	height: 520px;
+}
+
+div#message-box {
+	position: relative;
+	width: 100%;
+	height: 30%;
+	margin: 0 auto;
+	bottom: 29.5%;
+	background-color: #3369ff88;
+	border-radius: 5px;
+	border: solid 2px white;
+	color: white;
+	font-size: x-large;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+div#choice-box {
+	height: 100%;
+	width: 100%;
+	background-color: #3369ff88;
+	border-radius: 5px;
+	border: solid 2px white;
+	color: white;
+	font-size: x-large;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	position: relative;
+	bottom: calc(100% - 3px);
+}
+
+div.choice {
+	width: 100%;
+	padding: 0 20px;
+	margin-bottom: 10px;
+	background-color: #3369ffc9;
+}
+
+#next-arr {
+	display: none;
+	width: 50px;
+	position: absolute;
+	bottom: 50%;
+	right: 10px;
+	transform: rotateZ(90deg);
+}
+
+#back-arr {
+	display: none;
+	width: 50px;
+	position: absolute;
+	bottom: 50%;
+	left: 10px;
+	transform: rotateZ(-90deg);
+}
